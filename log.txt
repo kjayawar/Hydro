@@ -1,0 +1,6 @@
+
+C:\Users\kanishka.jayawardane\Desktop\Automation\Hydro>move *cpx .\dumps\ 
+
+C:\Users\kanishka.jayawardane\Desktop\Automation\Hydro>move *plr .\dumps\ 
+
+C:\Users\kanishka.jayawardane\Desktop\Automation\Hydro>move *inp .\dumps\ 

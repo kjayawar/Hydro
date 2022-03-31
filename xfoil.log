@@ -1,0 +1,140 @@
+
+ ===================================================
+  XFOIL Version 6.99
+  Copyright (C) 2000   Mark Drela, Harold Youngren
+
+  This software comes with ABSOLUTELY NO WARRANTY,
+    subject to the GNU General Public License.
+
+  Caveat computor
+ ===================================================
+
+ File  xfoil.def  not found
+
+   QUIT    Exit program
+
+  .OPER    Direct operating point(s)
+  .MDES    Complex mapping design routine
+  .QDES    Surface speed design routine
+  .GDES    Geometry design routine
+
+   SAVE f  Write airfoil to labeled coordinate file
+   PSAV f  Write airfoil to plain coordinate file
+   ISAV f  Write airfoil to ISES coordinate file
+   MSAV f  Write airfoil to MSES coordinate file
+   REVE    Reverse written-airfoil node ordering
+
+   LOAD f  Read buffer airfoil from coordinate file
+   NACA i  Set NACA 4,5-digit airfoil and buffer airfoil
+   INTE    Set buffer airfoil by interpolating two airfoils
+   NORM    Buffer airfoil normalization toggle
+   XYCM rr Change CM reference location, currently  0.25000 0.00000
+
+   BEND    Display structural properties of current airfoil
+
+   PCOP    Set current-airfoil panel nodes directly from buffer airfoil points
+   PANE    Set current-airfoil panel nodes ( 160 ) based on curvature
+  .PPAR    Show/change paneling
+
+  .PLOP    Plotting options
+
+   WDEF f  Write  current-settings file
+   RDEF f  Reread current-settings file
+   NAME s  Specify new airfoil name
+   NINC    Increment name version number
+
+   Z       Zoom    | (available in all menus)
+   U       Unzoom  | 
+
+ XFOIL   c>   ...............................................
+
+  G raphics-enable flag:        T
+  S ize of plot object          10.00"
+  A spect ratio of plot object   0.5500
+  P age dimensions              11.00 x  8.50"
+  M argins from page edges       0.00",  0.00"
+  F ont size (relative)          0.0150
+  W indow/screen size fraction   0.8000
+  B lowup input method:        Cursor    
+  O rientation of plot:        Landscape 
+  C olor PostScript output?     F
+
+      Option, Value   (or <Return>)    c>   ...............................................
+
+  G raphics-enable flag:        F
+  S ize of plot object          10.00"
+  A spect ratio of plot object   0.5500
+  P age dimensions              11.00 x  8.50"
+  M argins from page edges       0.00",  0.00"
+  F ont size (relative)          0.0150
+  W indow/screen size fraction   0.8000
+  B lowup input method:        Cursor    
+  O rientation of plot:        Landscape 
+  C olor PostScript output?     F
+
+      Option, Value   (or <Return>)    c>  
+ XFOIL   c>  
+ XFOIL   c>  
+ Labeled airfoil file.  Name:  EPPLER 908 12%                                  
+
+ Number of input coordinate points: 160
+ Counterclockwise ordering
+ Max thickness =     0.119999  at x =   0.440
+ Max camber    =     0.027611  at x =   0.669
+
+  LE  x,y  =   0.00002   0.00018  |   Chord =   0.99998
+  TE  x,y  =   1.00000   0.00000  |
+
+ Current airfoil nodes set from buffer airfoil nodes ( 160 )
+
+ XFOIL   c>  
+ You are working with the buffer airfoil
+
+.GDES   c>  
+Enter flap hinge x location   r>  
+  Top    surface:  y =  0.0655     y/t = 1.0
+  Bottom surface:  y = -0.0124     y/t = 0.0
+
+Enter flap hinge y location (or 999 to specify y/t)   r>  
+Enter flap hinge relative y/t location   r>  
+ Flap hinge: x,y =  0.75000  0.02654
+
+Enter flap deflection in degrees (+ down)   r>  
+ Top breaks: x,y =    0.75571  0.06468      0.75571  0.06468
+ Bot breaks: x,y =    0.75171 -0.01229      0.75509 -0.01199
+ Max thickness =     0.120098  at x =   0.437
+ Max camber    =     0.042778  at x =   0.735
+
+.GDES   c>  
+ Current airfoil nodes set from buffer airfoil nodes ( 163 )
+
+.GDES   c>  
+ XFOIL   c>  
+.OPERi   c>   Min Cp will be written to polar save file
+
+.OPERi   c>  
+ Polar  1 newly created for accumulation
+ Airfoil archived with polar: EPPLER 908 12%                                  
+
+Enter  polar save filename  OR  <return> for no file   s>   plrset nipol,ipol()            7          13
+
+ New polar save file available
+
+Enter  polar dump filename  OR  <return> for no file   s>  
+ Polar dump file will NOT be written
+
+ Polar accumulation enabled
+
+.OPERia   c>   Calculating unit vorticity distributions ...
+ plradd ia,ip,cpol            1   538976288  4.40000003E-05
+
+ Point added to stored polar  1
+ plradd ia,ip,cpol            1   538976288  4.40000003E-05
+ Point written to save file  e908_12.dat_f_5.00_cl_1.40.plr                  
+ Dump file unspecified or not available
+
+.OPERia   c>  
+ Enter filename:  e908_12.cp                                                                      
+
+.OPERia   c>  
+ XFOIL   c>  
